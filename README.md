@@ -293,7 +293,7 @@ aws eks update-kubeconfig --name your-cluster-name
 ``` bash
 aws iam create-policy \
     --policy-name AWSLoadBalancerControllerIAMPolicy \
-    --policy-document file://iam_policy.json
+    --policy-document file://ingress/iam_policy.json
 ```
 - Create a IAM role
 ``` bash 
